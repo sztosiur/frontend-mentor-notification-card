@@ -19,7 +19,7 @@
     --fw-m: 500;
     --fw-b: 800;
     font-size: 0.625rem;
-    --padding: 1em 1.5em;
+    --padding: 0.5em 1em;
 
 }
 
@@ -135,7 +135,7 @@ header{
 .message:hover,
 .message:active{
     background-color: var(--clr-l-blue1);
-    border:none;
+    border: 0.1rem solid rgba(3, 20, 3, 0);
 }
 .name{
     font-weight: var(--fw-b);
@@ -160,36 +160,53 @@ header{
     width:4rem;
     height:4rem;
     border-radius: 1rem;
-    background: url("assets/images/image-chess.webp") no-repeat center center;
+    background: url("/assets/images/image-chess.webp") no-repeat center center;
     background-size: cover;
 }
 
 
 .avatar__user1{
-    background: url("assets/images/avatar-mark-webber.webp")no-repeat center center;
+    background: url('/assets/images/avatar-mark-webber.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user2{
-    background: url("assets/images/avatar-angela-gray.webp")no-repeat center center;
+    background: url('/assets/images/avatar-angela-gray.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user3{
-    background: url("assets/images/avatar-jacob-thompson.webp")no-repeat center center;
+    background: url('/assets/images/avatar-jacob-thompson.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user4{
-    background: url("assets/images/avatar-rizky-hasanuddin.webp")no-repeat center center;
+    background: url('/assets/images/avatar-rizky-hasanuddin.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user5{
-    background: url("assets/images/avatar-kimberly-smith.webp")no-repeat center center;
+    background: url('/assets/images/avatar-kimberly-smith.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user6{
-    background: url("assets/images/avatar-nathan-peterson.webp")no-repeat center center;
+    background: url('/assets/images/avatar-nathan-peterson.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user7{
-    background: url("assets/images/avatar-anna-kim.webp")no-repeat center center;
+    background: url('/assets/images/avatar-anna-kim.webp')no-repeat center center;
     background-size: cover;
+}
+
+@media (min-width:1000px) {
+    body{
+        background-color: var(--clr-vl-blue);
+    }
+    main{
+        background-color: var(--clr-white);
+        min-width: 80rem;
+        border-radius: 2rem;
+        font-size: 1em;
+    }
+    .notification{
+        margin:0.2rem 1rem;
+        height: fit-content;
+        
+    }
 }
