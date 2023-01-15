@@ -160,36 +160,36 @@ header{
     width:4rem;
     height:4rem;
     border-radius: 1rem;
-    background: url("/assets/images/image-chess.webp") no-repeat center center;
+    background: url("assets/images/image-chess.webp") no-repeat center center;
     background-size: cover;
 }
 
 
 .avatar__user1{
-    background: url('/assets/images/avatar-mark-webber.webp')no-repeat center center;
+    background: url('assets/images/avatar-mark-webber.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user2{
-    background: url('/assets/images/avatar-angela-gray.webp')no-repeat center center;
+    background: url('assets/images/avatar-angela-gray.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user3{
-    background: url('/assets/images/avatar-jacob-thompson.webp')no-repeat center center;
+    background: url('assets/images/avatar-jacob-thompson.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user4{
-    background: url('/assets/images/avatar-rizky-hasanuddin.webp')no-repeat center center;
+    background: url('assets/images/avatar-rizky-hasanuddin.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user5{
-    background: url('/assets/images/avatar-kimberly-smith.webp')no-repeat center center;
+    background: url('assets/images/avatar-kimberly-smith.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user6{
-    background: url('/assets/images/avatar-nathan-peterson.webp')no-repeat center center;
+    background: url('assets/images/avatar-nathan-peterson.webp')no-repeat center center;
     background-size: cover;
 }
 .avatar__user7{
-    background: url('/assets/images/avatar-anna-kim.webp')no-repeat center center;
+    background: url('assets/images/avatar-anna-kim.webp')no-repeat center center;
     background-size: cover;
 }
